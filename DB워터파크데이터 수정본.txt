@@ -1,0 +1,757 @@
+insert into 지점 values ('김해 롯데워터파크', 56000, 46000, 49000, 39000, 'SKH_1', 'kimhae1');
+insert into 지점 values ('용인 에버랜드 캐리비안 베이', 55000, 44000, 47000, 36000, 'SYI_2', 'youngin2');
+insert into 지점 values ('고양 원마운트 워터파크', 65000, 55000, 50000, 40000, 'SGY_8', 'goyang2');
+insert into 지점 values ('부천 웅진 플레이도시 워터파크', 60000, 60000, 50000, 50000, 'SBC_6',  'bucheon1');
+insert into 지점 values ('송파 파크하비오 워터킹덤', 55000, 45000, 45000, 35000, 'SSP_3', 'songpa2');
+insert into 지점 values ('홍천 비발디파크 오션월드', 55000, 45000, 45000, 35000, 'SHC_9', 'hongcheon2');
+insert into 지점 values ('경주월드 캘리포니아 비치', 70000, 48000, 58000, 40000, 'SGJ_7', 'geyongju2');
+insert into 지점 values ('울산 파크하비오 워터킹덤', 55000, 45000, 45000, 35000, 'SUS_5', 'ulsan2');
+insert into 지점 values ('부산 비발디파크 오션월드', 55000, 45000, 45000, 35000, 'SBS_7', 'busan1');
+insert into 지점 values ('진주 캘리포니아 비치', 70000, 48000, 58000, 40000, 'SJJ_9', 'jinju1');
+insert into 지점 values ('창원 롯데워터파크', 56000, 46000, 49000, 39000, 'SMS_3', 'changone1');
+insert into 지점 values ('마산 에버랜드 캐리비안 베이', 55000, 44000, 47000, 36000, 'SCO_2', 'masan2');
+insert into 지점 values ('대전 원마운트 워터파크', 65000, 55000, 50000, 40000, 'SDJ_5', 'daejeon2');
+insert into 지점 values ('남해 웅진 플레이도시 워터파크', 60000, 60000, 50000, 50000, 'SNH_7',  'namhae1');
+insert into 지점 values ('광주 파크하비오 워터킹덤', 55000, 45000, 45000, 35000, 'SGWJ_9', 'gwangju2');
+insert into 지점 values ('전주 비발디파크 오션월드', 55000, 45000, 45000, 35000, 'SJEJ_1', 'jeonju2');
+insert into 지점 values ('강원 캘리포니아 비치', 70000, 48000, 58000, 40000, 'SGW_4', 'gangone2');
+insert into 지점 values ('대구 파크하비오 워터킹덤', 55000, 45000, 45000, 35000, 'SDG_6', 'daegu1');
+insert into 지점 values ('제주도 비발디파크 오션월드', 55000, 45000, 45000, 35000, 'SJJU_7', 'jeju1');
+insert into 지점 values ('울진 캘리포니아 비치', 70000, 48000, 58000, 40000, 'SUJ_10', 'uljin2');
+
+
+//장비(장비번호, 장비명, 수량, 대여료, 사이즈, 대여번호, 직원아이디)
+//<김해>
+insert into 장비 values ('EKH_1', '구명조끼', 80, 5000, 'S', 'RKH_101', 'hong123');
+insert into 장비 values ('EKH_2', '구명조끼', 80, 5000, 'M', 'RKH_102', 'hong123');
+insert into 장비 values ('EKH_3', '구명조끼', 80, 5000, 'L', 'RKH_103', 'hong123');
+insert into 장비 values ('EKH_4', '수영복(여)', 30, 20000, 'S', 'RKH_104', 'hong123');
+insert into 장비 values ('EKH_5', '수영복(여)', 30, 20000, 'M', 'RKH_105', 'hong123');
+insert into 장비 values ('EKH_6', '수영복(여)', 30, 20000, 'L', 'RKH_106', 'hong123');
+insert into 장비 values ('EKH_7', '수영복(남)', 40, 15000, 'M', 'RKH_107', 'hong123');
+insert into 장비 values ('EKH_8', '수영복(남)', 40, 15000, 'L', 'RKH_108', 'hong123');
+insert into 장비 values ('EKH_9', '수영복(남)', 40, 15000, 'XL', 'RKH_109', 'hong123');
+insert into 장비 values ('EKH_10', '스노클링', 40, 25000, 'Free Size', 'RKH_110', 'hong123');
+insert into 장비 values ('EKH_11', '수경', 70, 7000, 'Free Size', 'RKH_111', 'hong123');
+insert into 장비 values ('EKH_12', '선글라스', 50, 10000, 'Free Size', 'RKH_112', 'hong123');
+insert into 장비 values ('EKH_13', '도넛튜브', 100, 10000, 'Free Size', 'RKH_113', 'hong123');
+insert into 장비 values ('EKH_14', '파도보호대', 30, 5000, 'Free Size', 'RKH_114', 'hong123');
+insert into 장비 values ('EKH_15', '막대기튜브', 50, 10000, 'Free Size', 'RKH_115', 'hong123');
+insert into 장비 values ('EKH_16', '샌들', 15, 8000, 'L', 'RKH_116', 'hong123');
+insert into 장비 values ('EKH_17', '모자', 40, 15000, 'Free Size', 'RKH_117', 'hong123');
+insert into 장비 values ('EKH_18', '무릎보호대', 15, 5000, 'Free Size', 'RKH_118', 'hong123');
+insert into 장비 values ('EKH_19', '수모', 70, 13000, 'Free Size', 'RKH_119', 'hong123');
+insert into 장비 values ('EKH_20', '귀마개', 50, 6000, 'Free Size', 'RKH_120', 'hong123');
+
+
+//<용인>
+insert into 장비 values ('EYI_1', '구명조끼', 80, 5000, 'S', 'RYI_101', '1nanana');
+insert into 장비 values ('EYI_2', '구명조끼', 80, 5000, 'M', 'RYI_102', '1nanana');
+insert into 장비 values ('EYI_3', '구명조끼', 80, 5000, 'L', 'RYI_103', '1nanana');
+insert into 장비 values ('EYI_4', '수영복(여)', 30, 20000, 'S', 'RYI_104', '1nanana');
+insert into 장비 values ('EYI_5', '수영복(여)', 30, 20000, 'M', 'RYI_105', '1nanana');
+insert into 장비 values ('EYI_6', '수영복(여)', 30, 20000, 'L', 'RYI_106', '1nanana');
+insert into 장비 values ('EYI_7', '수영복(남)', 40, 15000, 'M', 'RYI_107', '1nanana');
+insert into 장비 values ('EYI_8', '수영복(남)', 40, 15000, 'L', 'RYI_108', '1nanana');
+insert into 장비 values ('EYI_9', '수영복(남)', 40, 15000, 'XL', 'RYI_109', '1nanana');
+insert into 장비 values ('EYI_10', '스노클링', 40, 25000, 'Free Size', 'RYI_110', '1nanana');
+insert into 장비 values ('EYI_11', '수경', 70, 7000, 'Free Size', 'RYI_111', '0silsil');
+insert into 장비 values ('EYI_12', '선글라스', 50, 10000, 'Free Size', 'RYI_112', '0silsil');
+insert into 장비 values ('EYI_13', '도넛튜브', 100, 10000, 'Free Size', 'RYI_113', '0silsil');
+insert into 장비 values ('EYI_14', '파도보호대', 30, 5000, 'Free Size', 'RYI_114', '0silsil');
+insert into 장비 values ('EYI_15', '막대기튜브', 50, 10000, 'Free Size', 'RYI_115', '0silsil');
+insert into 장비 values ('EYI_16', '샌들', 15, 8000, 'L', 'RYI_116', '0silsil');
+insert into 장비 values ('EYI_17', '모자', 40, 15000, 'Free Size', 'RYI_117', '0silsil');
+insert into 장비 values ('EYI_18', '무릎보호대', 15, 5000, 'Free Size', 'RYI_118', '0silsil');
+insert into 장비 values ('EYI_19', '수모', 70, 13000, 'Free Size', 'RYI_119', '0silsil');
+insert into 장비 values ('EYI_20', '귀마개', 50, 6000, 'Free Size', 'RYI_120', '0silsil');
+
+
+//<고양>
+insert into 장비 values ('EGY_1', '구명조끼', 80, 5000, 'S', 'RGY_101', 'shsh121');
+insert into 장비 values ('EGY_2', '구명조끼', 80, 5000, 'M', 'RGY_102', 'shsh121');
+insert into 장비 values ('EGY_3', '구명조끼', 80, 5000, 'L', 'RGY_103', 'shsh121');
+insert into 장비 values ('EGY_4', '수영복(여)', 30, 20000, 'S', 'RGY_104', 'shsh121');
+insert into 장비 values ('EGY_5', '수영복(여)', 30, 20000, 'M', 'RGY_105', 'shsh121');
+insert into 장비 values ('EGY_6', '수영복(여)', 30, 20000, 'L', 'RGY_106', 'shsh121');
+insert into 장비 values ('EGY_7', '수영복(남)', 40, 15000, 'M', 'RGY_107', 'shsh121');
+insert into 장비 values ('EGY_8', '수영복(남)', 40, 15000, 'L', 'RGY_108', 'shsh121');
+insert into 장비 values ('EGY_9', '수영복(남)', 40, 15000, 'XL', 'RGY_109', 'shsh121');
+insert into 장비 values ('EGY_10', '스노클링', 40, 25000, 'Free Size', 'RGY_110', 'shsh121');
+insert into 장비 values ('EGY_11', '수경', 70, 7000, 'Free Size', 'RGY_111', 'shsh121');
+insert into 장비 values ('EGY_12', '선글라스', 50, 10000, 'Free Size', 'RGY_112', 'shsh121');
+insert into 장비 values ('EGY_13', '도넛튜브', 100, 10000, 'Free Size', 'RGY_113', 'shsh121');
+insert into 장비 values ('EGY_14', '파도보호대', 30, 5000, 'Free Size', 'RGY_114', 'shsh121');
+insert into 장비 values ('EGY_15', '막대기튜브', 50, 10000, 'Free Size', 'RGY_115', 'shsh121');
+insert into 장비 values ('EGY_16', '샌들', 15, 8000, 'L', 'RGY_116', 'shsh121');
+insert into 장비 values ('EGY_17', '모자', 40, 15000, 'Free Size', 'RGY_117', 'shsh121');
+insert into 장비 values ('EGY_18', '무릎보호대', 15, 5000, 'Free Size', 'RGY_118', 'shsh121');
+insert into 장비 values ('EGY_19', '수모', 70, 13000, 'Free Size', 'RGY_119', 'shsh121');
+insert into 장비 values ('EGY_20', '귀마개', 50, 6000, 'Free Size', 'RGY_120', 'shsh121');
+
+
+//<부천>
+insert into 장비 values ('EBC_1', '구명조끼', 80, 5000, 'S', 'RBC_101', '2z1hun');
+insert into 장비 values ('EBC_2', '구명조끼', 80, 5000, 'M', 'RBC_102', '2z1hun');
+insert into 장비 values ('EBC_3', '구명조끼', 80, 5000, 'L', 'RBC_103', '2z1hun');
+insert into 장비 values ('EBC_4', '수영복(여)', 30, 20000, 'S', 'RBC_104', '2z1hun');
+insert into 장비 values ('EBC_5', '수영복(여)', 30, 20000, 'M', 'RBC_105', '2z1hun');
+insert into 장비 values ('EBC_6', '수영복(여)', 30, 20000, 'L', 'RBC_106', '2z1hun');
+insert into 장비 values ('EBC_7', '수영복(남)', 40, 15000, 'M', 'RBC_107', '2z1hun');
+insert into 장비 values ('EBC_8', '수영복(남)', 40, 15000, 'L', 'RBC_108', '2z1hun');
+insert into 장비 values ('EBC_9', '수영복(남)', 40, 15000, 'XL', 'RBC_109', '2z1hun');
+insert into 장비 values ('EBC_10', '스노클링', 40, 25000, 'Free Size', 'RBC_110', '2z1hun');
+insert into 장비 values ('EBC_11', '수경', 70, 7000, 'Free Size', 'RBC_111', 'm1nseo2');
+insert into 장비 values ('EBC_12', '선글라스', 50, 10000, 'Free Size', 'RBC_112', 'm1nseo2');
+insert into 장비 values ('EBC_13', '도넛튜브', 100, 10000, 'Free Size', 'RBC_113', 'm1nseo2');
+insert into 장비 values ('EBC_14', '파도보호대', 30, 5000, 'Free Size', 'RBC_114', 'm1nseo2');
+insert into 장비 values ('EBC_15', '막대기튜브', 50, 10000, 'Free Size', 'RBC_115', 'm1nseo2');
+insert into 장비 values ('EBC_16', '샌들', 15, 8000, 'L', 'RBC_116', 'm1nseo2');
+insert into 장비 values ('EBC_17', '모자', 40, 15000, 'Free Size', 'RBC_117', 'm1nseo2');
+insert into 장비 values ('EBC_18', '무릎보호대', 15, 5000, 'Free Size', 'RBC_118', 'm1nseo2');
+insert into 장비 values ('EBC_19', '수모', 70, 13000, 'Free Size', 'RBC_119', 'm1nseo2');
+insert into 장비 values ('EBC_20', '귀마개', 50, 6000, 'Free Size', 'RBC_120', 'm1nseo2');
+
+
+//<송파>
+insert into 장비 values ('ESP_1', '구명조끼', 80, 5000, 'S', 'RSP_101', 'jinwoo0');
+insert into 장비 values ('ESP_2', '구명조끼', 80, 5000, 'M', 'RSP_102', 'jinwoo0');
+insert into 장비 values ('ESP_3', '구명조끼', 80, 5000, 'L', 'RSP_103', 'jinwoo0');
+insert into 장비 values ('ESP_4', '수영복(여)', 30, 20000, 'S', 'RSP_104', 'jinwoo0');
+insert into 장비 values ('ESP_5', '수영복(여)', 30, 20000, 'M', 'RSP_105', 'jinwoo0');
+insert into 장비 values ('ESP_6', '수영복(여)', 30, 20000, 'L', 'RSP_106', 'jinwoo0');
+insert into 장비 values ('ESP_7', '수영복(남)', 40, 15000, 'M', 'RSP_107', 'jinwoo0');
+insert into 장비 values ('ESP_8', '수영복(남)', 40, 15000, 'L', 'RSP_108', 'jinwoo0');
+insert into 장비 values ('ESP_9', '수영복(남)', 40, 15000, 'XL', 'RSP_109', 'jinwoo0');
+insert into 장비 values ('ESP_10', '스노클링', 40, 25000, 'Free Size', 'RSP_110', 'hyuno0o');
+insert into 장비 values ('EBC_11', '수경', 70, 7000, 'Free Size', 'RSP_111', 'hyuno0o');
+insert into 장비 values ('ESP_12', '선글라스', 50, 10000, 'Free Size', 'RSP_112', 'jinwoo0');
+insert into 장비 values ('ESP_13', '도넛튜브', 100, 10000, 'Free Size', 'RSP_113', 'jinwoo0');
+insert into 장비 values ('ESP_14', '파도보호대', 30, 5000, 'Free Size', 'RSP_114', 'hyuno0o');
+insert into 장비 values ('ESP_15', '막대기튜브', 50, 10000, 'Free Size', 'RSP_115', 'hyuno0o');
+insert into 장비 values ('ESP_16', '샌들', 15, 8000, 'L', 'RSP_116', 'hyuno0o');
+insert into 장비 values ('ESP_17', '모자', 40, 15000, 'Free Size', 'RSP_117', 'hyuno0o');
+insert into 장비 values ('ESP_18', '무릎보호대', 15, 5000, 'Free Size', 'RSP_118', 'hyuno0o');
+insert into 장비 values ('ESP_19', '수모', 70, 13000, 'Free Size', 'RSP_119', 'hyuno0o');
+insert into 장비 values ('ESP_20', '귀마개', 50, 6000, 'Free Size', 'RSP_120', 'hyuno0o');
+
+
+//<홍천>
+insert into 장비 values ('EHC_1', '구명조끼', 80, 5000, 'S', 'RHC_101', 'minaa1');
+insert into 장비 values ('EHC_2', '구명조끼', 80, 5000, 'M', 'RHC_102', 'minaa1');
+insert into 장비 values ('EHC_3', '구명조끼', 80, 5000, 'L', 'RHC_103', 'minaa1');
+insert into 장비 values ('EHC_4', '수영복(여)', 30, 20000, 'S', 'RHC_104', 'minaa1');
+insert into 장비 values ('EHC_5', '수영복(여)', 30, 20000, 'M', 'RHC_105', 'minaa1');
+insert into 장비 values ('EHC_6', '수영복(여)', 30, 20000, 'L', 'RHC_106', 'minaa1');
+insert into 장비 values ('EHC_7', '수영복(남)', 40, 15000, 'M', 'RHC_107', 'minaa1');
+insert into 장비 values ('EHC_8', '수영복(남)', 40, 15000, 'L', 'RHC_108', 'minaa1');
+insert into 장비 values ('EHC_9', '수영복(남)', 40, 15000, 'XL', 'RHC_109', 'minaa1');
+insert into 장비 values ('EHC_10', '스노클링', 40, 25000, 'Free Size', 'RHC_110', 'minaa1');
+insert into 장비 values ('EHC_11', '수경', 70, 7000, 'Free Size', 'RHC_111', 'minaa1');
+insert into 장비 values ('EHC_12', '선글라스', 50, 10000, 'Free Size', 'RHC_112', 'minaa1');
+insert into 장비 values ('EHC_13', '도넛튜브', 100, 10000, 'Free Size', 'RHC_113', 'minaa1');
+insert into 장비 values ('EHC_14', '파도보호대', 30, 5000, 'Free Size', 'RHC_114', 'minaa1');
+insert into 장비 values ('EHC_15', '막대기튜브', 50, 10000, 'Free Size', 'RHC_115', 'minaa1');
+insert into 장비 values ('EHC_16', '샌들', 15, 8000, 'L', 'RHC_116', 'minaa1');
+insert into 장비 values ('EHC_17', '모자', 40, 15000, 'Free Size', 'RHC_117', 'minaa1');
+insert into 장비 values ('EHC_18', '무릎보호대', 15, 5000, 'Free Size', 'RHC_118', 'minaa1');
+insert into 장비 values ('EHC_19', '수모', 70, 13000, 'Free Size', 'RHC_119', 'minaa1');
+insert into 장비 values ('EHC_20', '귀마개', 50, 6000, 'Free Size', 'RHC_120', 'minaa1');
+
+
+
+//<경주>
+insert into 장비 values ('EGJ_1', '구명조끼', 80, 5000, 'S', 'RGJ_101', 'haaaaa0');
+insert into 장비 values ('EGJ_2', '구명조끼', 80, 5000, 'M', 'RGJ_102', 'haaaaa0');
+insert into 장비 values ('EGJ_3', '구명조끼', 80, 5000, 'L', 'RGJ_103', 'haaaaa0');
+insert into 장비 values ('EGJ_4', '수영복(여)', 30, 20000, 'S', 'RGJ_104', 'haaaaa0');
+insert into 장비 values ('EGJ_5', '수영복(여)', 30, 20000, 'M', 'RGJ_105', 'haaaaa0');
+insert into 장비 values ('EGJ_6', '수영복(여)', 30, 20000, 'L', 'RGJ_106', 'haaaaa0');
+insert into 장비 values ('EGJ_7', '수영복(남)', 40, 15000, 'M', 'RGJ_107', 'haaaaa0');
+insert into 장비 values ('EGJ_8', '수영복(남)', 40, 15000, 'L', 'RGJ_108', 'haaaaa0');
+insert into 장비 values ('EGJ_9', '수영복(남)', 40, 15000, 'XL', 'RGJ_109', 'haaaaa0');
+insert into 장비 values ('EGJ_10', '스노클링', 40, 25000, 'Free Size', 'RGJ_110', 'haaaaa0');
+insert into 장비 values ('EGJ_11', '수경', 70, 7000, 'Free Size', 'RGJ_111', 'minjikim');
+insert into 장비 values ('EGJ_12', '선글라스', 50, 10000, 'Free Size', 'RGJ_112', 'minjikim');
+insert into 장비 values ('EGJ_13', '도넛튜브', 100, 10000, 'Free Size', 'RGJ_113', 'minjikim');
+insert into 장비 values ('EGJ_14', '파도보호대', 30, 5000, 'Free Size', 'RGJ_114', 'minjikim');
+insert into 장비 values ('EGJ_15', '막대기튜브', 50, 10000, 'Free Size', 'RGJ_115', 'minjikim');
+insert into 장비 values ('EGJ_16', '샌들', 15, 8000, 'L', 'RGJ_116', 'minjikim');
+insert into 장비 values ('EGJ_17', '모자', 40, 15000, 'Free Size', 'RGJ_117', 'minjikim');
+insert into 장비 values ('EGJ_18', '무릎보호대', 15, 5000, 'Free Size', 'RGJ_118', 'minjikim');
+insert into 장비 values ('EGJ_19', '수모', 70, 13000, 'Free Size', 'RGJ_119', 'minjikim');
+insert into 장비 values ('EGJ_20', '귀마개', 50, 6000, 'Free Size', 'RGJ_120', 'minjikim');
+
+
+//<울산>
+insert into 장비 values ('EUS_1', '구명조끼', 80, 5000, 'S', 'RUS_101', 'younghee2');
+insert into 장비 values ('EUS_2', '구명조끼', 80, 5000, 'M', 'RUS_102', 'younghee2');
+insert into 장비 values ('EUS_3', '구명조끼', 80, 5000, 'L', 'RUS_103', 'younghee2');
+insert into 장비 values ('EUS_4', '수영복(여)', 30, 20000, 'S', 'RUS_104', 'younghee2');
+insert into 장비 values ('EUS_5', '수영복(여)', 30, 20000, 'M', 'RUS_105', 'younghee2');
+insert into 장비 values ('EUS_6', '수영복(여)', 30, 20000, 'L', 'RUS_106', 'younghee2');
+insert into 장비 values ('EUS_7', '수영복(남)', 40, 15000, 'M', 'RUS_107', 'younghee2');
+insert into 장비 values ('EUS_8', '수영복(남)', 40, 15000, 'L', 'RUS_108', 'younghee2');
+insert into 장비 values ('EUS_9', '수영복(남)', 40, 15000, 'XL', 'RUS_109', 'younghee2');
+insert into 장비 values ('EUS_10', '스노클링', 40, 25000, 'Free Size', 'RUS_110', 'younghee2');
+insert into 장비 values ('EUS_11', '수경', 70, 7000, 'Free Size', 'RUS_111', 'jimin123');
+insert into 장비 values ('EUS_12', '선글라스', 50, 10000, 'Free Size', 'RUS_112', 'jimin123');
+insert into 장비 values ('EUS_13', '도넛튜브', 100, 10000, 'Free Size', 'RUS_113', 'jimin123');
+insert into 장비 values ('EUS_14', '파도보호대', 30, 5000, 'Free Size', 'RUS_114', 'jimin123');
+insert into 장비 values ('EUS_15', '막대기튜브', 50, 10000, 'Free Size', 'RUS_115', 'jimin123');
+insert into 장비 values ('EUS_16', '샌들', 15, 8000, 'L', 'RUS_116', 'jimin123');
+insert into 장비 values ('EUS_17', '모자', 40, 15000, 'Free Size', 'RUS_117', 'jimin123');
+insert into 장비 values ('EUS_18', '무릎보호대', 15, 5000, 'Free Size', 'RUS_118', 'jimin123');
+insert into 장비 values ('EUS_19', '수모', 70, 13000, 'Free Size', 'RUS_119', 'jimin123');
+insert into 장비 values ('EUS_20', '귀마개', 50, 6000, 'Free Size', 'RUS_120', 'jimin123');
+
+
+//<부산>
+insert into 장비 values ('EBS_1', '구명조끼', 80, 5000, 'S', 'RBS_101', 'hye0ngjuu');
+insert into 장비 values ('EBS_2', '구명조끼', 80, 5000, 'M', 'RBS_102', 'hye0ngjuu');
+insert into 장비 values ('EBS_3', '구명조끼', 80, 5000, 'L', 'RBS_103', 'hye0ngjuu');
+insert into 장비 values ('EBS_4', '수영복(여)', 30, 20000, 'S', 'RBS_104', 'hye0ngjuu');
+insert into 장비 values ('EBS_5', '수영복(여)', 30, 20000, 'M', 'RBS_105', 'hye0ngjuu');
+insert into 장비 values ('EBS_6', '수영복(여)', 30, 20000, 'L', 'RBS_106', 'hye0ngjuu');
+insert into 장비 values ('EBS_7', '수영복(남)', 40, 15000, 'M', 'RBS_107', 'hye0ngjuu');
+insert into 장비 values ('EBS_8', '수영복(남)', 40, 15000, 'L', 'RBS_108', 'hye0ngjuu');
+insert into 장비 values ('EBS_9', '수영복(남)', 40, 15000, 'XL', 'RBS_109', 'hye0ngjuu');
+insert into 장비 values ('EBS_10', '스노클링', 40, 25000, 'Free Size', 'RBS_110', 'hye0ngjuu');
+insert into 장비 values ('EBS_11', '수경', 70, 7000, 'Free Size', 'RBS_111', '0heeee');
+insert into 장비 values ('EBS_12', '선글라스', 50, 10000, 'Free Size', 'RBS_112', '0heeee');
+insert into 장비 values ('EBS_13', '도넛튜브', 100, 10000, 'Free Size', 'RBS_113', '0heeee');
+insert into 장비 values ('EBS_14', '파도보호대', 30, 5000, 'Free Size', 'RBS_114', '0heeee');
+insert into 장비 values ('EBS_15', '막대기튜브', 50, 10000, 'Free Size', 'RBS_115', '0heeee');
+insert into 장비 values ('EBS_16', '샌들', 15, 8000, 'L', 'RBS_116', '0heeee');
+insert into 장비 values ('EBS_17', '모자', 40, 15000, 'Free Size', 'RBS_117', '0heeee');
+insert into 장비 values ('EBS_18', '무릎보호대', 15, 5000, 'Free Size', 'RBS_118', '0heeee');
+insert into 장비 values ('EBS_19', '수모', 70, 13000, 'Free Size', 'RBS_119', '0heeee');
+insert into 장비 values ('EBS_20', '귀마개', 50, 6000, 'Free Size', 'RBS_120', '0heeee');
+
+
+//<진주>
+insert into 장비 values ('EJJ_1', '구명조끼', 80, 5000, 'S', 'RJJ_101', 'minjunnn');
+insert into 장비 values ('EJJ_2', '구명조끼', 80, 5000, 'M', 'RJJ_102', 'minjunnn');
+insert into 장비 values ('EJJ_3', '구명조끼', 80, 5000, 'L', 'RJJ_103', 'minjunnn');
+insert into 장비 values ('EJJ_4', '수영복(여)', 30, 20000, 'S', 'RJJ_104', 'minjunnn');
+insert into 장비 values ('EJJ_5', '수영복(여)', 30, 20000, 'M', 'RJJ_105', 'minjunnn');
+insert into 장비 values ('EJJ_6', '수영복(여)', 30, 20000, 'L', 'RJJ_106', 'minjunnn');
+insert into 장비 values ('EJJ_7', '수영복(남)', 40, 15000, 'M', 'RJJ_107', 'minjunnn');
+insert into 장비 values ('EJJ_8', '수영복(남)', 40, 15000, 'L', 'RJJ_108', 'minjunnn');
+insert into 장비 values ('EJJ_9', '수영복(남)', 40, 15000, 'XL', 'RJJ_109', 'minjunnn');
+insert into 장비 values ('EJJ_10', '스노클링', 40, 25000, 'Free Size', 'RJJ_110', 'minjunnn');
+insert into 장비 values ('EJJ_11', '수경', 70, 7000, 'Free Size', 'RJJ_111', 'minjunnn');
+insert into 장비 values ('EJJ_12', '선글라스', 50, 10000, 'Free Size', 'RJJ_112', 'j1suuu');
+insert into 장비 values ('EJJ_13', '도넛튜브', 100, 10000, 'Free Size', 'RJJ_113', 'j1suuu');
+insert into 장비 values ('EJJ_14', '파도보호대', 30, 5000, 'Free Size', 'RJJ_114', 'j1suuu');
+insert into 장비 values ('EJJ_15', '막대기튜브', 50, 10000, 'Free Size', 'RJJ_115', 'j1suuu');
+insert into 장비 values ('EJJ_16', '샌들', 15, 8000, 'L', 'RJJ_116', 'j1suuu');
+insert into 장비 values ('EJJ_17', '모자', 40, 15000, 'Free Size', 'RJJ_117', 'j1suuu');
+insert into 장비 values ('EJJ_18', '무릎보호대', 15, 5000, 'Free Size', 'RJJ_118', 'j1suuu');
+insert into 장비 values ('EJJ_19', '수모', 70, 13000, 'Free Size', 'RJJ_119', 'j1suuu');
+insert into 장비 values ('EJJ_20', '귀마개', 50, 6000, 'Free Size', 'RJJ_120', 'j1suuu');
+
+
+//<창원>
+insert into 장비 values ('ECO_1', '구명조끼', 80, 5000, 'S', 'RCO_101', 'hahalin');
+insert into 장비 values ('ECO_2', '구명조끼', 80, 5000, 'M', 'RCO_102', 'hahalin');
+insert into 장비 values ('ECO_3', '구명조끼', 80, 5000, 'L', 'RCO_103', 'hahalin');
+insert into 장비 values ('ECO_4', '수영복(여)', 30, 20000, 'S', 'RCO_104', 'hahalin');
+insert into 장비 values ('ECO_5', '수영복(여)', 30, 20000, 'M', 'RCO_105', 'hahalin');
+insert into 장비 values ('ECO_6', '수영복(여)', 30, 20000, 'L', 'RCO_106', 'hahalin');
+insert into 장비 values ('ECO_7', '수영복(남)', 40, 15000, 'M', 'RCO_107', 'hahalin');
+insert into 장비 values ('ECO_8', '수영복(남)', 40, 15000, 'L', 'RCO_108', 'hahalin');
+insert into 장비 values ('ECO_9', '수영복(남)', 40, 15000, 'XL', 'RCO_109', 'hahalin');
+insert into 장비 values ('ECO_10', '스노클링', 40, 25000, 'Free Size', 'RCO_110', 'hahalin');
+insert into 장비 values ('ECO_11', '수경', 70, 7000, 'Free Size', 'RCO_111', 'hahalin');
+insert into 장비 values ('ECO_12', '선글라스', 50, 10000, 'Free Size', 'RCO_112', 'minjae2');
+insert into 장비 values ('ECO_13', '도넛튜브', 100, 10000, 'Free Size', 'RCO_113', 'minjae2');
+insert into 장비 values ('ECO_14', '파도보호대', 30, 5000, 'Free Size', 'RCO_114', 'minjae2');
+insert into 장비 values ('ECO_15', '막대기튜브', 50, 10000, 'Free Size', 'RCO_115', 'minjae2');
+insert into 장비 values ('ECO_16', '샌들', 15, 8000, 'L', 'RCO_116', 'minjae2');
+insert into 장비 values ('ECO_17', '모자', 40, 15000, 'Free Size', 'RCO_117', 'minjae2');
+insert into 장비 values ('ECO_18', '무릎보호대', 15, 5000, 'Free Size', 'RCO_118', 'minjae2');
+insert into 장비 values ('ECO_19', '수모', 70, 13000, 'Free Size', 'RCO_119', 'minjae2');
+insert into 장비 values ('ECO_20', '귀마개', 50, 6000, 'Free Size', 'RCO_120', 'minjae2');
+
+
+//<마산>
+insert into 장비 values ('EMS_1', '구명조끼', 80, 5000, 'S', 'RMS_101', 'jun222');
+insert into 장비 values ('EMS_2', '구명조끼', 80, 5000, 'M', 'RMS_102', 'jun222');
+insert into 장비 values ('EMS_3', '구명조끼', 80, 5000, 'L', 'RMS_103', 'jun222');
+insert into 장비 values ('EMS_4', '수영복(여)', 30, 20000, 'S', 'RMS_104', 'jun222');
+insert into 장비 values ('EMS_5', '수영복(여)', 30, 20000, 'M', 'RMS_105', 'jun222');
+insert into 장비 values ('EMS_6', '수영복(여)', 30, 20000, 'L', 'RMS_106', 'jun222');
+insert into 장비 values ('EMS_7', '수영복(남)', 40, 15000, 'M', 'RMS_107', 'jun222');
+insert into 장비 values ('EMS_8', '수영복(남)', 40, 15000, 'L', 'RMS_108', 'jun222');
+insert into 장비 values ('EMS_9', '수영복(남)', 40, 15000, 'XL', 'RMS_109', 'jun222');
+insert into 장비 values ('EMS_10', '스노클링', 40, 25000, 'Free Size', 'RMS_110', 'jun222');
+insert into 장비 values ('EMS_11', '수경', 70, 7000, 'Free Size', 'RMS_111', 'seoeo0');
+insert into 장비 values ('EMS_12', '선글라스', 50, 10000, 'Free Size', 'RMS_112', 'seoeo0');
+insert into 장비 values ('EMS_13', '도넛튜브', 100, 10000, 'Free Size', 'RMS_113', 'seoeo0');
+insert into 장비 values ('EMS_14', '파도보호대', 30, 5000, 'Free Size', 'RMS_114', 'seoeo0');
+insert into 장비 values ('EMS_15', '막대기튜브', 50, 10000, 'Free Size', 'RMS_115', 'seoeo0');
+insert into 장비 values ('EMS_16', '샌들', 15, 8000, 'L', 'RMS_116', 'seoeo0');
+insert into 장비 values ('EMS_17', '모자', 40, 15000, 'Free Size', 'RMS_117', 'seoeo0');
+insert into 장비 values ('EMS_18', '무릎보호대', 15, 5000, 'Free Size', 'RMS_118', 'seoeo0');
+insert into 장비 values ('EMS_19', '수모', 70, 13000, 'Free Size', 'RMS_119', 'seoeo0');
+insert into 장비 values ('EMS_20', '귀마개', 50, 6000, 'Free Size', 'RMS_120', 'seoeo0');
+
+
+//<대전>
+insert into 장비 values ('EDJ_1', '구명조끼', 80, 5000, 'S', 'RDJ_101', 'minjulee');
+insert into 장비 values ('EDJ_2', '구명조끼', 80, 5000, 'M', 'RDJ_102', 'minjulee');
+insert into 장비 values ('EDJ_3', '구명조끼', 80, 5000, 'L', 'RDJ_103', 'minjulee');
+insert into 장비 values ('EDJ_4', '수영복(여)', 30, 20000, 'S', 'RDJ_104', 'minjulee');
+insert into 장비 values ('EDJ_5', '수영복(여)', 30, 20000, 'M', 'RDJ_105', 'minjulee');
+insert into 장비 values ('EDJ_6', '수영복(여)', 30, 20000, 'L', 'RDJ_106', 'minjulee');
+insert into 장비 values ('EDJ_7', '수영복(남)', 40, 15000, 'M', 'RDJ_107', 'minjulee');
+insert into 장비 values ('EDJ_8', '수영복(남)', 40, 15000, 'L', 'RDJ_108', 'minjulee');
+insert into 장비 values ('EDJ_9', '수영복(남)', 40, 15000, 'XL', 'RDJ_109', 'minjulee');
+insert into 장비 values ('EDJ_10', '스노클링', 40, 25000, 'Free Size', 'RDJ_110', 'minjulee');
+insert into 장비 values ('EDJ_11', '수경', 70, 7000, 'Free Size', 'RDJ_111', 'minjulee');
+insert into 장비 values ('EDJ_12', '선글라스', 50, 10000, 'Free Size', 'RDJ_112', 'minjijj');
+insert into 장비 values ('EDJ_13', '도넛튜브', 100, 10000, 'Free Size', 'RDJ_113', 'minjijj');
+insert into 장비 values ('EDJ_14', '파도보호대', 30, 5000, 'Free Size', 'RDJ_114', 'minjijj');
+insert into 장비 values ('EDJ_15', '막대기튜브', 50, 10000, 'Free Size', 'RDJ_115', 'minjijj');
+insert into 장비 values ('EDJ_16', '샌들', 15, 8000, 'L', 'RDJ_116', 'minjijj');
+insert into 장비 values ('EDJ_17', '모자', 40, 15000, 'Free Size', 'RDJ_117', 'minjijj');
+insert into 장비 values ('EDJ_18', '무릎보호대', 15, 5000, 'Free Size', 'RDJ_118', 'minjijj');
+insert into 장비 values ('EDJ_19', '수모', 70, 13000, 'Free Size', 'RDJ_119', 'minjijj');
+insert into 장비 values ('EDJ_20', '귀마개', 50, 6000, 'Free Size', 'RDJ_120', 'minjijj');
+
+
+//<남해>
+insert into 장비 values ('ENH_1', '구명조끼', 80, 5000, 'S', 'RNH_101', 'hyeonj1');
+insert into 장비 values ('ENH_2', '구명조끼', 80, 5000, 'M', 'RNH_102', 'hyeonj1');
+insert into 장비 values ('ENH_3', '구명조끼', 80, 5000, 'L', 'RNH_103', 'hyeonj1');
+insert into 장비 values ('ENH_4', '수영복(여)', 30, 20000, 'S', 'RNH_104', 'hyeonj1');
+insert into 장비 values ('ENH_5', '수영복(여)', 30, 20000, 'M', 'RNH_105', 'hyeonj1');
+insert into 장비 values ('ENH_6', '수영복(여)', 30, 20000, 'L', 'RNH_106', 'hyeonj1');
+insert into 장비 values ('ENH_7', '수영복(남)', 40, 15000, 'M', 'RNH_107', 'hyeonj1');
+insert into 장비 values ('ENH_8', '수영복(남)', 40, 15000, 'L', 'RNH_108', 'hyeonj1');
+insert into 장비 values ('ENH_9', '수영복(남)', 40, 15000, 'XL', 'RNH_109', 'hyeonj1');
+insert into 장비 values ('ENH_10', '스노클링', 40, 25000, 'Free Size', 'RNH_110', 'hyeonj1');
+insert into 장비 values ('ENH_11', '수경', 70, 7000, 'Free Size', 'RNH_111', 'hyeonj1');
+insert into 장비 values ('ENH_12', '선글라스', 50, 10000, 'Free Size', 'RNH_112', 'hyeonj1');
+insert into 장비 values ('ENH_13', '도넛튜브', 100, 10000, 'Free Size', 'RNH_113', 'hyeonj1');
+insert into 장비 values ('ENH_14', '파도보호대', 30, 5000, 'Free Size', 'RNH_114', 'hyeonj1');
+insert into 장비 values ('ENH_15', '막대기튜브', 50, 10000, 'Free Size', 'RNH_115', 'hyeonj1');
+insert into 장비 values ('ENH_16', '샌들', 15, 8000, 'L', 'RNH_116', 'hyeonj1');
+insert into 장비 values ('ENH_17', '모자', 40, 15000, 'Free Size', 'RNH_117', 'hyeonj1');
+insert into 장비 values ('ENH_18', '무릎보호대', 15, 5000, 'Free Size', 'RNH_118', 'hyeonj1');
+insert into 장비 values ('ENH_19', '수모', 70, 13000, 'Free Size', 'RNH_119', 'hyeonj1');
+insert into 장비 values ('ENH_20', '귀마개', 50, 6000, 'Free Size', 'RNH_120', 'hyeonj1');
+
+
+//<광주>
+insert into 장비 values ('EGWJ_1', '구명조끼', 80, 5000, 'S', 'RGWJ_101', 'hyeon000');
+insert into 장비 values ('EGWJ_2', '구명조끼', 80, 5000, 'M', 'RGWJ_102', 'hyeon000');
+insert into 장비 values ('EGWJ_3', '구명조끼', 80, 5000, 'L', 'RGWJ_103', 'hyeon000');
+insert into 장비 values ('EGWJ_4', '수영복(여)', 30, 20000, 'S', 'RGWJ_104', 'hyeon000');
+insert into 장비 values ('EGWJ_5', '수영복(여)', 30, 20000, 'M', 'RGWJ_105', 'hyeon000');
+insert into 장비 values ('EGWJ_6', '수영복(여)', 30, 20000, 'L', 'RGWJ_106', 'hyeon000');
+insert into 장비 values ('EGWJ_7', '수영복(남)', 40, 15000, 'M', 'RGWJ_107', 'hyeon000');
+insert into 장비 values ('EGWJ_8', '수영복(남)', 40, 15000, 'L', 'RGWJ_108', 'hyeon000');
+insert into 장비 values ('EGWJ_9', '수영복(남)', 40, 15000, 'XL', 'RGWJ_109', 'hyeon000');
+insert into 장비 values ('EGWJ_10', '스노클링', 40, 25000, 'Free Size', 'RGWJ_110', 'hyeon000');
+insert into 장비 values ('EGWJ_11', '수경', 70, 7000, 'Free Size', 'RGWJ_111', 'hyeon000');
+insert into 장비 values ('EGWJ_12', '선글라스', 50, 10000, 'Free Size', 'RGWJ_112', 'hyeon000');
+insert into 장비 values ('EGWJ_13', '도넛튜브', 100, 10000, 'Free Size', 'RGWJ_113', 'hyeon000');
+insert into 장비 values ('EGWJ_14', '파도보호대', 30, 5000, 'Free Size', 'RGWJ_114', 'hyeon000');
+insert into 장비 values ('EGWJ_15', '막대기튜브', 50, 10000, 'Free Size', 'RGWJ_115', 'hyeon000');
+insert into 장비 values ('EGWJ_16', '샌들', 15, 8000, 'L', 'RGWJ_116', 'hyeon000');
+insert into 장비 values ('EGWJ_17', '모자', 40, 15000, 'Free Size', 'RGWJ_117', 'hyeon000');
+insert into 장비 values ('EGWJ_18', '무릎보호대', 15, 5000, 'Free Size', 'RGWJ_118', 'hyeon000');
+insert into 장비 values ('EGWJ_19', '수모', 70, 13000, 'Free Size', 'RGWJ_119', 'hyeon000');
+insert into 장비 values ('EGWJ_20', '귀마개', 50, 6000, 'Free Size', 'RGWJ_120', 'hyeon000');
+
+
+//<전주>
+insert into 장비 values ('EJEJ_1', '구명조끼', 80, 5000, 'S', 'RJEJ_101', 'westjun33');
+insert into 장비 values ('EJEJ_2', '구명조끼', 80, 5000, 'M', 'RJEJ_102', 'westjun33');
+insert into 장비 values ('EJEJ_3', '구명조끼', 80, 5000, 'L', 'RJEJ_103', 'westjun33');
+insert into 장비 values ('EJEJ_4', '수영복(여)', 30, 20000, 'S', 'RJEJ_104', 'westjun33');
+insert into 장비 values ('EJEJ_5', '수영복(여)', 30, 20000, 'M', 'RJEJ_105', 'westjun33');
+insert into 장비 values ('EJEJ_6', '수영복(여)', 30, 20000, 'L', 'RJEJ_106', 'westjun33');
+insert into 장비 values ('EJEJ_7', '수영복(남)', 40, 15000, 'M', 'RJEJ_107', 'westjun33');
+insert into 장비 values ('EJEJ_8', '수영복(남)', 40, 15000, 'L', 'RJEJ_108', 'westjun33');
+insert into 장비 values ('EJEJ_9', '수영복(남)', 40, 15000, 'XL', 'RJEJ_109', 'westjun33');
+insert into 장비 values ('EJEJ_10', '스노클링', 40, 25000, 'Free Size', 'RJEJ_110', 'westjun33');
+insert into 장비 values ('EJEJ_11', '수경', 70, 7000, 'Free Size', 'RJEJ_111', 'westjun33');
+insert into 장비 values ('EJEJ_12', '선글라스', 50, 10000, 'Free Size', 'RJEJ_112', 'westjun33');
+insert into 장비 values ('EJEJ_13', '도넛튜브', 100, 10000, 'Free Size', 'RJEJ_113', 'westjun33');
+insert into 장비 values ('EJEJ_14', '파도보호대', 30, 5000, 'Free Size', 'RJEJ_114', 'westjun33');
+insert into 장비 values ('EJEJ_15', '막대기튜브', 50, 10000, 'Free Size', 'RJEJ_115', 'westjun33');
+insert into 장비 values ('EJEJ_16', '샌들', 15, 8000, 'L', 'RJEJ_116', 'westjun33');
+insert into 장비 values ('EJEJ_17', '모자', 40, 15000, 'Free Size', 'RJEJ_117', 'westjun33');
+insert into 장비 values ('EJEJ_18', '무릎보호대', 15, 5000, 'Free Size', 'RJEJ_118', 'westjun33');
+insert into 장비 values ('EJEJ_19', '수모', 70, 13000, 'Free Size', 'RJEJ_119', 'westjun33');
+insert into 장비 values ('EJEJ_20', '귀마개', 50, 6000, 'Free Size', 'RJEJ_120', 'westjun33');
+
+
+//<강원>
+insert into 장비 values ('EGW_1', '구명조끼', 80, 5000, 'S', 'RGW_101', 'ir0nsu');
+insert into 장비 values ('EGW_2', '구명조끼', 80, 5000, 'M', 'RGW_102', 'ir0nsu');
+insert into 장비 values ('EGW_3', '구명조끼', 80, 5000, 'L', 'RGW_103', 'ir0nsu');
+insert into 장비 values ('EGW_4', '수영복(여)', 30, 20000, 'S', 'RGW_104', 'ir0nsu');
+insert into 장비 values ('EGW_5', '수영복(여)', 30, 20000, 'M', 'RGW_105', 'ir0nsu');
+insert into 장비 values ('EGW_6', '수영복(여)', 30, 20000, 'L', 'RGW_106', 'ir0nsu');
+insert into 장비 values ('EGW_7', '수영복(남)', 40, 15000, 'M', 'RGW_107', 'ir0nsu');
+insert into 장비 values ('EGW_8', '수영복(남)', 40, 15000, 'L', 'RGW_108', 'ir0nsu');
+insert into 장비 values ('EGW_9', '수영복(남)', 40, 15000, 'XL', 'RGW_109', 'ir0nsu');
+insert into 장비 values ('EGW_10', '스노클링', 40, 25000, 'Free Size', 'RGW_110', 'ir0nsu');
+insert into 장비 values ('EGW_11', '수경', 70, 7000, 'Free Size', 'RGW_111', 'ir0nsu');
+insert into 장비 values ('EGW_12', '선글라스', 50, 10000, 'Free Size', 'RGW_112', 'ir0nsu');
+insert into 장비 values ('EGW_13', '도넛튜브', 100, 10000, 'Free Size', 'RGW_113', 'ir0nsu');
+insert into 장비 values ('EGW_14', '파도보호대', 30, 5000, 'Free Size', 'RGW_114', 'ir0nsu');
+insert into 장비 values ('EGW_15', '막대기튜브', 50, 10000, 'Free Size', 'RGW_115', 'ir0nsu');
+insert into 장비 values ('EGW_16', '샌들', 15, 8000, 'L', 'RGW_116', 'ir0nsu');
+insert into 장비 values ('EGW_17', '모자', 40, 15000, 'Free Size', 'RGW_117', 'ir0nsu');
+insert into 장비 values ('EGW_18', '무릎보호대', 15, 5000, 'Free Size', 'RGW_118', 'ir0nsu');
+insert into 장비 values ('EGW_19', '수모', 70, 13000, 'Free Size', 'RGW_119', 'ir0nsu');
+insert into 장비 values ('EGW_20', '귀마개', 50, 6000, 'Free Size', 'RGW_120', 'ir0nsu');
+
+
+//<대구>
+insert into 장비 values ('EDG_1', '구명조끼', 80, 5000, 'S', 'RDG_101', 'westkim79');
+insert into 장비 values ('EDG_2', '구명조끼', 80, 5000, 'M', 'RDG_102', 'westkim79');
+insert into 장비 values ('EDG_3', '구명조끼', 80, 5000, 'L', 'RDG_103', 'westkim79');
+insert into 장비 values ('EDG_4', '수영복(여)', 30, 20000, 'S', 'RDG_104', 'westkim79');
+insert into 장비 values ('EDG_5', '수영복(여)', 30, 20000, 'M', 'RDG_105', 'westkim79');
+insert into 장비 values ('EDG_6', '수영복(여)', 30, 20000, 'L', 'RDG_106', 'westkim79');
+insert into 장비 values ('EDG_7', '수영복(남)', 40, 15000, 'M', 'RDG_107', 'westkim79');
+insert into 장비 values ('EDG_8', '수영복(남)', 40, 15000, 'L', 'RDG_108', 'westkim79');
+insert into 장비 values ('EDG_9', '수영복(남)', 40, 15000, 'XL', 'RDG_109', 'westkim79');
+insert into 장비 values ('EDG_10', '스노클링', 40, 25000, 'Free Size', 'RDG_110', 'westkim79');
+insert into 장비 values ('EDG_11', '수경', 70, 7000, 'Free Size', 'RDG_111', 'westkim79');
+insert into 장비 values ('EDG_12', '선글라스', 50, 10000, 'Free Size', 'RDG_112', 'westkim79');
+insert into 장비 values ('EDG_13', '도넛튜브', 100, 10000, 'Free Size', 'RDG_113', 'westkim79');
+insert into 장비 values ('EDG_14', '파도보호대', 30, 5000, 'Free Size', 'RDG_114', 'westkim79');
+insert into 장비 values ('EDG_15', '막대기튜브', 50, 10000, 'Free Size', 'RDG_115', 'westkim79');
+insert into 장비 values ('EDG_16', '샌들', 15, 8000, 'L', 'RDG_116', 'westkim79');
+insert into 장비 values ('EDG_17', '모자', 40, 15000, 'Free Size', 'RDG_117', 'westkim79');
+insert into 장비 values ('EDG_18', '무릎보호대', 15, 5000, 'Free Size', 'RDG_118', 'westkim79');
+insert into 장비 values ('EDG_19', '수모', 70, 13000, 'Free Size', 'RDG_119', 'westkim79');
+insert into 장비 values ('EDG_20', '귀마개', 50, 6000, 'Free Size', 'RDG_120', 'westkim79');
+
+
+//<제주도>
+insert into 장비 values ('EJJU_1', '구명조끼', 80, 5000, 'S', 'RJJU_101', 'catslemin66');
+insert into 장비 values ('EJJU_2', '구명조끼', 80, 5000, 'M', 'RJJU_102', 'catslemin66');
+insert into 장비 values ('EJJU_3', '구명조끼', 80, 5000, 'L', 'RJJU_103', 'catslemin66');
+insert into 장비 values ('EJJU_4', '수영복(여)', 30, 20000, 'S', 'RJJU_104', 'catslemin66');
+insert into 장비 values ('EJJU_5', '수영복(여)', 30, 20000, 'M', 'RJJU_105', 'catslemin66');
+insert into 장비 values ('EJJU_6', '수영복(여)', 30, 20000, 'L', 'RJJU_106', 'catslemin66');
+insert into 장비 values ('EJJU_7', '수영복(남)', 40, 15000, 'M', 'RJJU_107', 'catslemin66');
+insert into 장비 values ('EJJU_8', '수영복(남)', 40, 15000, 'L', 'RJJU_108', 'catslemin66');
+insert into 장비 values ('EJJU_9', '수영복(남)', 40, 15000, 'XL', 'RJJU_109', 'catslemin66');
+insert into 장비 values ('EJJU_10', '스노클링', 40, 25000, 'Free Size', 'RJJU_110', 'catslemin66');
+insert into 장비 values ('EJJU_11', '수경', 70, 7000, 'Free Size', 'RJJU_111', 'catslemin66');
+insert into 장비 values ('EJJU_12', '선글라스', 50, 10000, 'Free Size', 'RJJU_112', 'catslemin66');
+insert into 장비 values ('EJJU_13', '도넛튜브', 100, 10000, 'Free Size', 'RJJU_113', 'catslemin66');
+insert into 장비 values ('EJJU_14', '파도보호대', 30, 5000, 'Free Size', 'RJJU_114', 'catslemin66');
+insert into 장비 values ('EJJU_15', '막대기튜브', 50, 10000, 'Free Size', 'RJJU_115', 'catslemin66');
+insert into 장비 values ('EJJU_16', '샌들', 15, 8000, 'L', 'RJJU_116', 'catslemin66');
+insert into 장비 values ('EJJU_17', '모자', 40, 15000, 'Free Size', 'RJJU_117', 'catslemin66');
+insert into 장비 values ('EJJU_18', '무릎보호대', 15, 5000, 'Free Size', 'RJJU_118', 'catslemin66');
+insert into 장비 values ('EJJU_19', '수모', 70, 13000, 'Free Size', 'RJJU_119', 'catslemin66');
+insert into 장비 values ('EJJU_20', '귀마개', 50, 6000, 'Free Size', 'RJJU_120', 'catslemin66');
+
+
+//<울진>
+insert into 장비 values ('EUJ_1', '구명조끼', 80, 5000, 'S', 'RUJ_101', 'jiji989');
+insert into 장비 values ('EUJ_2', '구명조끼', 80, 5000, 'M', 'RUJ_102', 'jiji989');
+insert into 장비 values ('EUJ_3', '구명조끼', 80, 5000, 'L', 'RUJ_103', 'jiji989');
+insert into 장비 values ('EUJ_4', '수영복(여)', 30, 20000, 'S', 'RUJ_104', 'jiji989');
+insert into 장비 values ('EUJ_5', '수영복(여)', 30, 20000, 'M', 'RUJ_105', 'jiji989');
+insert into 장비 values ('EUJ_6', '수영복(여)', 30, 20000, 'L', 'RUJ_106', 'jiji989');
+insert into 장비 values ('EUJ_7', '수영복(남)', 40, 15000, 'M', 'RUJ_107', 'jiji989');
+insert into 장비 values ('EUJ_8', '수영복(남)', 40, 15000, 'L', 'RUJ_108', 'jiji989');
+insert into 장비 values ('EUJ_9', '수영복(남)', 40, 15000, 'XL', 'RUJ_109', 'jiji989');
+insert into 장비 values ('EUJ_10', '스노클링', 40, 25000, 'Free Size', 'RUJ_110', 'jiji989');
+insert into 장비 values ('EUJ_11', '수경', 70, 7000, 'Free Size', 'RUJ_111', 'jiji989');
+insert into 장비 values ('EUJ_12', '선글라스', 50, 10000, 'Free Size', 'RUJ_112', 'jiji989');
+insert into 장비 values ('EUJ_13', '도넛튜브', 100, 10000, 'Free Size', 'RUJ_113', 'jiji989');
+insert into 장비 values ('EUJ_14', '파도보호대', 30, 5000, 'Free Size', 'RUJ_114', 'jiji989');
+insert into 장비 values ('EUJ_15', '막대기튜브', 50, 10000, 'Free Size', 'RUJ_115', 'jiji989');
+insert into 장비 values ('EUJ_16', '샌들', 15, 8000, 'L', 'RUJ_116', 'jiji989');
+insert into 장비 values ('EUJ_17', '모자', 40, 15000, 'Free Size', 'RUJ_117', 'jiji989');
+insert into 장비 values ('EUJ_18', '무릎보호대', 15, 5000, 'Free Size', 'RUJ_118', 'jiji989');
+insert into 장비 values ('EUJ_19', '수모', 70, 13000, 'Free Size', 'RUJ_119', 'jiji989');
+insert into 장비 values ('EUJ_20', '귀마개', 50, 6000, 'Free Size', 'RUJ_120', 'jiji989');
+
+
+//직원(직원아이디, 직원비밀번호, 직원이름, 직원전화번호, 관리자아이디, 지점명)
+
+insert into 직원 values ('hong123', 'p@ssw0rd1', '홍길동', '010-5514-5678', 'kimhae1', '김해 롯데워터파크');
+insert into 직원 values ('younghee2', 'password123', '이영희', '010-7143-6636', 'kimhae2', '울산 파크하비오 워터킹덤');
+insert into 직원 values ('jimin123', 'mysecret4', '박지민', '010-8461-2222', 'ulsan1', '울산 파크하비오 워터킹덤');
+insert into 직원 values ('1nanana', 'password5!', '송하나', '010-7453-9809', 'youngin2', '용인 에버랜드 캐리비안 베이');
+insert into 직원 values ('0silsil', 'qwerty123', '장영실', '010-0438-4444', 'youngin2', '용인 에버랜드 캐리비안 베이');
+insert into 직원 values ('hye0ngjuu', 'ilovecoding', '윤형주', '010-1095-2712', 'busan1', '부산 비발디파크 오션월드');
+insert into 직원 values ('0heeee', 'p@ssword8', '김영희', '010-6938-7527', 'busan2', '부산 비발디파크 오션월드');
+insert into 직원 values ('shsh121', 'password9$', '이승훈', '010-3309-5555', 'goyang2', '고양 원마운트 워터파크');
+insert into 직원 values ('minjunnn', 'mysecret11', '박민준', '010-1905-3333', 'goyang2', '진주 캘리포니아 비치');
+insert into 직원 values ('j1suuu', 'pass@word12', '김지수', '010-5023-3423', 'jinju1', '진주 캘리포니아 비치');
+insert into 직원 values ('2z1hun', 'password!13', '이지훈', '010-3103-6922', 'bucheon2', '부천 웅진 플레이도시 워터파크');
+insert into 직원 values ('m1nseo2', 'mypass14', '정민서', '010-4311-5105', 'bucheon2', '부천 웅진 플레이도시 워터파크');
+insert into 직원 values ('hahalin', 'secure!15', '송하린', '010-5695-6366', 'changone2', '창원 롯데워터파크');
+insert into 직원 values ('minjae2', 'password16$', '김민재', '010-6166-7071', 'changone2', '창원 롯데워터파크');
+insert into 직원 values ('jun222', 'myp@ss17', '이준혁', '010-6609-2948', 'masan1', '마산 에버랜드 캐리비안 베이');
+insert into 직원 values ('seoeo0', 'password18', '정서영', '010-8198-9999', 'masan2', '마산 에버랜드 캐리비안 베이');
+insert into 직원 values ('jinwoo0', 'mypa$$word19', '박진우', '010-1379-1111', 'songpa1', '송파 파크하비오 워터킹덤');
+insert into 직원 values ('hyuno0o', 'securepwd20!', '김현우', '010-8452-4444', 'songpa2', '송파 파크하비오 워터킹덤');
+insert into 직원 values ('minjulee', 'p@ssword21', '이민주', '010-8123-5555', 'songpa2', '대전 원마운트 워터파크');
+insert into 직원 values ('minjijj', 'myp@ssword22', '정민지', '010-0564-1746', 'daejeon1', '대전 원마운트 워터파크');
+insert into 직원 values ('minaa1', 'password23!', '박민아', '010-5505-7623', 'hongcheon2', '홍천 비발디파크 오션월드');
+insert into 직원 values ('hyeonj1', 'mypass25', '이현지', '010-7283-9189', 'hongcheon2', '남해 웅진 플레이도시 워터파크');
+insert into 직원 values ('haaaaa0', 'secure!27', '박하영', '010-9393-2001', 'geyongju1', '경주월드 캘리포니아 비치');
+insert into 직원 values ('minjikim', 'mypass28', '김민지', '010-1788-8282', 'geyongju1', '경주월드 캘리포니아 비치');
+insert into 직원 values ('hyeon000', 'password29$', '이현우', '010-3221-4413', 'gwangju2', '광주 파크하비오 워터킹덤');
+insert into 직원 values ('westjun33', 'myp@ss30', '정서준', '010-2594-5077', 'jeonju1', '전주 비발디파크 오션월드');
+insert into 직원 values ('ir0nsu', 'securepwd2', '김철수', '010-7324-5432', 'gangone', '강원 캘리포니아 비치');
+insert into 직원 values ('westkim79', 'secret@pwd24', '김서준', '010-1946-1878', 'hongcheon2', '대구 파크하비오 워터킹덤');
+insert into 직원 values ('catslemin66', 'password26!', '정민성', '010-1878-1001', 'jeju2', '제주도 비발디파크 오션월드');
+insert into 직원 values ('jiji989', 'pa$$word10', '정지혜', '010-0889-3333', 'goyang2', '울진 캘리포니아 비치');
+
+
+
+//카드사(카드회사명, 할인혜택, 지점명)
+
+insert into 카드사 values ('국민카드', '워터파크 3% 할인', '김해 롯데워터파크');
+insert into 카드사 values ('신한카드', '워터파크 5% 할인', '용인 에버랜드 캐리비안 베이');
+insert into 카드사 values ('삼성카드', '워터파크 8% 할인', '고양 원마운트 워터파크');
+insert into 카드사 values ('현대카드', '워터파크 10% 할인', '부천 웅진 플레이도시 워터파크');
+insert into 카드사 values ('롯데카드', '워터파크 5% 할인', '송파 파크하비오 워터킹덤');
+insert into 카드사 values ('하나카드', '워터파크 5% 할인', '홍천 비발디파크 오션월드');
+insert into 카드사 values ('외환카드', '워터파크 2% 할인', '경주월드 캘리포니아 비치');
+insert into 카드사 values ('우리카드', '워터파크 3% 할인', '울산 파크하비오 워터킹덤');
+insert into 카드사 values ('농협카드', '워터파크 7% 할인', '부산 비발디파크 오션월드');
+insert into 카드사 values ('씨티카드', '워터파크 9% 할인', '진주 캘리포니아 비치');
+insert into 카드사 values ('현아카드', '워터파크 5% 할인', '창원 롯데워터파크');
+insert into 카드사 values ('아현카드', '워터파크 6% 할인', '마산 에버랜드 캐리비안 베이');
+insert into 카드사 values ('다현카드', '워터파크 8% 할인', '대전 원마운트 워터파크');
+insert into 카드사 values ('현다카드', '워터파크 10% 할인', '남해 웅진 플레이도시 워터파크');
+insert into 카드사 values ('정민카드', '워터파크 5% 할인', '광주 파크하비오 워터킹덤');
+insert into 카드사 values ('민정카드', '워터파크 5% 할인', '전주 비발디파크 오션월드');
+insert into 카드사 values ('하얀카드', '워터파크 5% 할인', '강원 캘리포니아 비치');
+insert into 카드사 values ('검은카드', '워터파크 5% 할인', '대구 파크하비오 워터킹덤');
+insert into 카드사 values ('노란카드', '워터파크 7% 할인', '제주도 비발디파크 오션월드');
+insert into 카드사 values ('파란카드', '워터파크 9% 할인', '울진 캘리포니아 비치');
+
+
+//매출(매출번호, 금액, 날짜, 지점명, 관리자아이디)
+
+insert into 매출 values ('SKH_1', 7135400, '2023-05-01', '김해 롯데워터파크', 'kimhae1');
+insert into 매출 values ('SKH_2', 9256400, '2023-05-02', '김해 롯데워터파크', 'kimhae2');
+insert into 매출 values ('SYI_3', 7545600, '2023-05-03', '용인 에버랜드 캐리비안 베이', 'youngin1');
+insert into 매출 values ('SYI_4', 2573500, '2023-05-04', '용인 에버랜드 캐리비안 베이', 'youngin2');
+insert into 매출 values ('SGY_5', 7522200, '2023-05-05', '고양 원마운트 워터파크', 'goyang1');
+insert into 매출 values ('SGY_6', 4563200, '2023-05-06', '고양 원마운트 워터파크', 'goyang2');
+insert into 매출 values ('SBC_7', 6345400, '2023-05-07', '부천 웅진 플레이도시 워터파크', 'bucheon1');
+insert into 매출 values ('SBC_8', 6500000, '2023-05-08', '부천 웅진 플레이도시 워터파크', 'bucheon2');
+insert into 매출 values ('SSP_9', 8877500, '2023-05-09', '송파 파크하비오 워터킹덤', 'songpa1');
+insert into 매출 values ('SSP_10', 12000000, '2023-05-10', '송파 파크하비오 워터킹덤', 'songpa2');
+insert into 매출 values ('SHC_1', 7135400, '2023-05-01', '홍천 비발디파크 오션월드', 'hongcheon1');
+insert into 매출 values ('SHC_2', 9256400, '2023-05-02', '홍천 비발디파크 오션월드', 'hongcheon2');
+insert into 매출 values ('SGJ_3', 7545600, '2023-05-03', '경주월드 캘리포니아 비치', 'geyongju1');
+insert into 매출 values ('SGJ_4', 2573500, '2023-05-04', '경주월드 캘리포니아 비치', 'geyongju2');
+insert into 매출 values ('SUS_5', 7522200, '2023-05-05', '울산 파크하비오 워터킹덤', 'ulsan1');
+insert into 매출 values ('SUS_6', 4563200, '2023-05-06', '울산 파크하비오 워터킹덤', 'ulsan2');
+insert into 매출 values ('SBS_7', 6345400, '2023-05-07', '부산 비발디파크 오션월드', 'busan1');
+insert into 매출 values ('SBS_8', 6500000, '2023-05-08', '부산 비발디파크 오션월드', 'busan2');
+insert into 매출 values ('SJJ_9', 8877500, '2023-05-09', '진주 캘리포니아 비치', 'jinju1');
+insert into 매출 values ('SJJ_10', 12000000, '2023-05-10', '진주 캘리포니아 비치', 'jinju2');
+insert into 매출 values ('SCO_1', 7135400, '2023-05-01', '창원 롯데워터파크', 'changone1');
+insert into 매출 values ('SCO_2', 9256400, '2023-05-02', '창원 롯데워터파크', 'changone2');
+insert into 매출 values ('SMS_3', 7545600, '2023-05-03', '마산 에버랜드 캐리비안 베이', 'masan1');
+insert into 매출 values ('SMS_4', 2573500, '2023-05-04', '마산 에버랜드 캐리비안 베이', 'masan2');
+insert into 매출 values ('SDJ_5', 7522200, '2023-05-05', '대전 원마운트 워터파크', 'daejeon1');
+insert into 매출 values ('SDJ_6', 4563200, '2023-05-06', '대전 원마운트 워터파크', 'daejeon2');
+insert into 매출 values ('SNH_7', 6345400, '2023-05-07', '남해 웅진 플레이도시 워터파크', 'namhae1');
+insert into 매출 values ('SNH_8', 6500000, '2023-05-08', '남해 웅진 플레이도시 워터파크', 'namhae2');
+insert into 매출 values ('SGWJ_9', 8877500, '2023-05-09', '광주 파크하비오 워터킹덤', 'gwangju1');
+insert into 매출 values ('SGWJ_10', 12000000, '2023-05-10', '광주 파크하비오 워터킹덤', 'gwangju2');
+insert into 매출 values ('SJEJ_1', 7135400, '2023-05-01', '전주 비발디파크 오션월드', 'jeonju1');
+insert into 매출 values ('SJEJ_2', 9256400, '2023-05-02', '전주 비발디파크 오션월드', 'jeonju2');
+insert into 매출 values ('SGW_3', 7545600, '2023-05-03', '강원 캘리포니아 비치', 'gangone1');
+insert into 매출 values ('SGW_4', 2573500, '2023-05-04', '강원 캘리포니아 비치', 'gangone2');
+insert into 매출 values ('SDG_5', 7522200, '2023-05-05', '대구 파크하비오 워터킹덤', 'daegu1');
+insert into 매출 values ('SDG_6', 4563200, '2023-05-06', '대구 파크하비오 워터킹덤', 'daegu1');
+insert into 매출 values ('SJJU_7', 6345400, '2023-05-07', '제주도 비발디파크 오션월드', 'jeju1');
+insert into 매출 values ('SJJU_8', 6500000, '2023-05-08', '제주도 비발디파크 오션월드', 'jeju2');
+insert into 매출 values ('SUJ_9', 8877500, '2023-05-09', '울진 캘리포니아 비치', 'uljin1');
+insert into 매출 values ('SUJ_10', 12000000, '2023-05-10', '울진 캘리포니아 비치', 'uljin2');
+
+
+
+//관리자(관리자아이디, 관리자비밀번호, 지점명)
+
+insert into 관리자 values ('kimhae1', 'password123', '김해 롯데워터파크');
+insert into 관리자 values ('kimhae2', 'pw123', '김해 롯데워터파크');
+insert into 관리자 values ('youngin1', 'pass987', '용인 에버랜드 캐리비안 베이');
+insert into 관리자 values ('youngin2', 'pass957!@', '용인 에버랜드 캐리비안 베이');
+insert into 관리자 values ('goyang1', 'qwerty', '고양 원마운트 워터파크');
+insert into 관리자 values ('goyang2', 'lkfjd545', '고양 원마운트 워터파크');
+insert into 관리자 values ('bucheon1', 'abc123', '부천 웅진 플레이도시 워터파크');
+insert into 관리자 values ('bucheon2', 'xyzxyz', '부천 웅진 플레이도시 워터파크');
+insert into 관리자 values ('songpa1', 'password321', '송파 파크하비오 워터킹덤');
+insert into 관리자 values ('songpa2', 'passW5566', '송파 파크하비오 워터킹덤');
+insert into 관리자 values ('hongcheon1', 'pass456', '홍천 비발디파크 오션월드');
+insert into 관리자 values ('hongcheon2', 'qlalfqjs!', '홍천 비발디파크 오션월드');
+insert into 관리자 values ('geyongju1', 'asdfg', '경주월드 캘리포니아 비치');
+insert into 관리자 values ('geyongju2', 'qlqljs789', '경주월드 캘리포니아 비치');
+insert into 관리자 values ('ulsan1', 'qazwsx', '울산 파크하비오 워터킹덤');
+insert into 관리자 values ('ulsan2', 'rkskek33', '울산 파크하비오 워터킹덤');
+insert into 관리자 values ('busan1', '12345', '부산 비발디파크 오션월드');
+insert into 관리자 values ('busan2', 'qntksd45', '부산 비발디파크 오션월드');
+insert into 관리자 values ('jinju1', 'qkqh', '진주 캘리포니아 비치');
+insert into 관리자 values ('jinju2', 'wlswn!', '진주 캘리포니아 비치');
+insert into 관리자 values ('changone1', 'abcd', '창원 롯데워터파크');
+insert into 관리자 values ('changone2', 'ckddnjs', '창원 롯데워터파크');
+insert into 관리자 values ('masan1', 'ajdcnddl', '마산 에버랜드 캐리비안 베이');
+insert into 관리자 values ('masan2', 'aktks!', '마산 에버랜드 캐리비안 베이');
+insert into 관리자 values ('daejeon1', 'psd3304', '대전 원마운트 워터파크');
+insert into 관리자 values ('daejeon2', 'eowjs', '대전 원마운트 워터파크');
+insert into 관리자 values ('namhae1', '123qwe', '남해 웅진 플레이도시 워터파크');
+insert into 관리자 values ('namhae2', 'ekago', '남해 웅진 플레이도시 워터파크');
+insert into 관리자 values ('gwangju1', 'password789', '광주 파크하비오 워터킹덤');
+insert into 관리자 values ('gwangju2', 'rhkdwn4569', '광주 파크하비오 워터킹덤');
+insert into 관리자 values ('jeonju1', 'passpasspass', '전주 비발디파크 오션월드');
+insert into 관리자 values ('jeonju2', 'wjswnwjswn', '전주 비발디파크 오션월드');
+insert into 관리자 values ('gangone1', 'qwertyuiop', '강원 캘리포니아 비치');
+insert into 관리자 values ('gangone2', 'rkddnjs@', '강원 캘리포니아 비치');
+insert into 관리자 values ('daegu1', 'zxcvbnm', '대구 파크하비오 워터킹덤');
+insert into 관리자 values ('daegu2', 'eornrn', '대구 파크하비오 워터킹덤');
+insert into 관리자 values ('jeju1', 'asdfghjkl', '제주도 비발디파크 오션월드');
+insert into 관리자 values ('jeju2', 'wpwpwpwn', '제주도 비발디파크 오션월드');
+insert into 관리자 values ('uljin1', 'pwd9907', '울진 캘리포니아 비치');
+insert into 관리자 values ('uljin2', 'dnfwlsdlek', '울진 캘리포니아 비치');
+
+
+
+//놀이기구 (놀이기구식별번호, 기구명, 점검일자, 운휴일자, 이용객수, 지점명, 직원아이디)
+
+insert into 놀이기구 values ('AKH_1', '자이언트 부메랑고', '2023-05-20', '2023-05-25', 450, '김해 롯데워터파크', 'hong123');
+insert into 놀이기구 values ('AKH_2', '와일드서핑', '2023-05-18', '2023-05-20', 530, '김해 롯데워터파크', 'hong123');
+insert into 놀이기구 values ('AKH_3', '키즈 풀', '2023-05-22', '2023-05-23', 840, '김해 롯데워터파크', 'hong123');
+insert into 놀이기구 values ('AKH_4', '래피드 리버', '2023-05-17', '2023-05-19', 1025, '김해 롯데워터파크', 'hong123');
+insert into 놀이기구 values ('AKH_5', '실외 플레이 풀', '2023-05-24', '2023-05-26', 635, '김해 롯데워터파크', 'hong123');
+
+insert into 놀이기구 values ('AUS_6', '토네이도 슬라이드', '2023-05-21', '2023-05-22', 620, '울산 파크하비오 워터킹덤', 'younghee2');
+insert into 놀이기구 values ('AUS_7', '더블 스윙 슬라이드', '2023-05-19', '2023-05-21', 445, '울산 파크하비오 워터킹덤', 'younghee2');
+insert into 놀이기구 values ('AUS_8', '자이언트 아쿠아 플렉스', '2023-05-23', '2023-05-24', 730, '울산 파크하비오 워터킹덤', 'jimin123');
+insert into 놀이기구 values ('AUS_9', '티키 풀', '2023-05-18', '2023-05-19', 235, '울산 파크하비오 워터킹덤', '1nanana');
+insert into 놀이기구 values ('AUS_10', '레이싱 슬라이드', '2023-05-25', '2023-05-27', 440, '울산 파크하비오 워터킹덤', '1nanana');
+
+insert into 놀이기구 values ('AYI_11', '토렌트 리버', '2023-05-20', '2023-05-22', 650, '용인 에버랜드 캐리비안 베이', '0silsil');
+insert into 놀이기구 values ('AYI_12', '토들러 풀', '2023-05-24', '2023-05-25', 1130, '용인 에버랜드 캐리비안 베이', '0silsil');
+insert into 놀이기구 values ('AYI_13', '티키 웨이브', '2023-05-21', '2023-05-23', 1625, '용인 에버랜드 캐리비안 베이', '0silsil');
+insert into 놀이기구 values ('AYI_14', '티키 아쿠아 플렉스', '2023-05-17', '2023-05-18', 840, '용인 에버랜드 캐리비안 베이', '0silsil');
+insert into 놀이기구 values ('AYI_15', '튜브 슬라이드', '2023-05-23', '2023-05-24', 535, '용인 에버랜드 캐리비안 베이', '1nanana');
+
+insert into 놀이기구 values ('ABS_16', '바디 슬라이드', '2023-05-19', '2023-05-20', 330, '부산 비발디파크 오션월드', 'hye0ngjuu');
+insert into 놀이기구 values ('ABS_17', '스윙 슬라이드', '2023-05-25', '2023-05-26', 845, '부산 비발디파크 오션월드', 'hye0ngjuu');
+insert into 놀이기구 values ('ABS_18', '플레이 풀', '2023-05-22', '2023-05-23', 820, '부산 비발디파크 오션월드', '0heeee');
+insert into 놀이기구 values ('ABS_19', '티키 리버', '2023-05-18', '2023-05-19', 625, '부산 비발디파크 오션월드', '0heeee');
+insert into 놀이기구 values ('ABS_20', '워터 코스터', '2023-05-24', '2023-05-25', 104, '부산 비발디파크 오션월드', '0heeee');
+
+
+insert into 놀이기구 values ('AGY_21', '메가스톰', '2023-05-20', '2023-05-25', 511, '고양 원마운트 워터파크', 'shsh121');
+insert into 놀이기구 values ('AGY_22', '실외 파도풀', '2023-05-18', '2023-05-20', 751, '고양 원마운트 워터파크', 'shsh121');
+insert into 놀이기구 values ('AGY_23', '타워 래프트', '2023-05-22', '2023-05-23', 473, '고양 원마운트 워터파크', 'shsh121');
+insert into 놀이기구 values ('AGY_24', '타워 부메랑고', '2023-05-17', '2023-05-19', 962, '고양 원마운트 워터파크', 'shsh121');
+insert into 놀이기구 values ('AGY_25', '아쿠아 루프', '2023-05-24', '2023-05-26', 453, '고양 원마운트 워터파크', 'shsh121');
+
+insert into 놀이기구 values ('AJJ_26', '워터 봅슬레이', '2023-05-21', '2023-05-22', 123, '진주 캘리포니아 비치', 'minjunnn');
+insert into 놀이기구 values ('AJJ_27', '서핑라이드', '2023-06-01', '2023-06-02', 786, '진주 캘리포니아 비치', 'minjunnn');
+insert into 놀이기구 values ('AJJ_28', '어드벤처풀', '2023-05-23', '2023-05-24', 678, '진주 캘리포니아 비치', 'j1suuu');
+insert into 놀이기구 values ('AJJ_29', '퀵 라이드', '2023-05-18', '2023-05-19', 153, '진주 캘리포니아 비치', 'j1suuu');
+insert into 놀이기구 values ('AJJ_30', '풀사이드슬라이드', '2023-05-25', '2023-05-27', 978, '진주 캘리포니아 비치', 'j1suuu');
+
+insert into 놀이기구 values ('ABC_31', '실내 파도풀', '2023-05-20', '2023-05-22', 738, '부천 웅진 플레이도시 워터파크', '2z1hun');
+insert into 놀이기구 values ('ABC_32', '실내 다이빙풀', '2023-05-25', '2023-05-26', 2470, '부천 웅진 플레이도시 워터파크', '2z1hun');
+insert into 놀이기구 values ('ABC_33', '와일드 블라스터', '2023-05-21', '2023-05-23', 354, '부천 웅진 플레이도시 워터파크', 'm1nseo2');
+insert into 놀이기구 values ('ABC_34', '튜브 라이드', '2023-05-17', '2023-05-18', 875, '부천 웅진 플레이도시 워터파크', 'm1nseo2');
+insert into 놀이기구 values ('ABC_35', '다이빙풀', '2023-05-23', '2023-05-24', 578, '부천 웅진 플레이도시 워터파크', '2z1hun');
+
+insert into 놀이기구 values ('ACO_36', '실외 유수풀', '2023-05-19', '2023-05-20', 345, '창원 롯데워터파크', 'hahalin');
+insert into 놀이기구 values ('ACO_37', '바데풀', '2023-05-25', '2023-05-26', 876, '창원 롯데워터파크', 'hahalin');
+insert into 놀이기구 values ('ACO_38', '에버슬라이드', '2023-05-22', '2023-05-23', 842, '창원 롯데워터파크', 'minjae2');
+insert into 놀이기구 values ('ACO_39', '이벤트풀', '2023-05-18', '2023-05-19', 637, '창원 롯데워터파크', 'minjae2');
+insert into 놀이기구 values ('ACO_40', '패밀리풀', '2023-05-25', '2023-05-27', 753, '창원 롯데워터파크', 'minjae2');
+
+insert into 놀이기구 values ('AMS_41', '아쿠아랜드', '2023-05-20', '2023-05-25', 543, '마산 에버랜드 캐리비안 베이', 'jun222');
+insert into 놀이기구 values ('AMS_42', '윌링더비쉬', '2023-05-18', '2023-05-20', 135, '마산 에버랜드 캐리비안 베이', 'jun222');
+insert into 놀이기구 values ('AMS_43', '콜로라이드', '2023-05-22', '2023-05-23', 798, '마산 에버랜드 캐리비안 베이', 'seoeo0');
+insert into 놀이기구 values ('AMS_44', '실외 스파', '2023-05-17', '2023-05-19', 1751, '마산 에버랜드 캐리비안 베이', 'seoeo0');
+insert into 놀이기구 values ('AMS_45', '스카이부메랑고', '2023-05-24', '2023-05-26', 678, '마산 에버랜드 캐리비안 베이', 'seoeo0');
+
+insert into 놀이기구 values ('ASP_46', '레이지풀', '2023-05-21', '2023-05-22', 345, '송파 파크하비오 워터킹덤', 'jinwoo0');
+insert into 놀이기구 values ('ASP_47', '킹볼라이드', '2023-05-19', '2023-05-21', 977, '송파 파크하비오 워터킹덤', 'jinwoo0');
+insert into 놀이기구 values ('ASP_48', '벤츄라리버', '2023-05-23', '2023-05-24', 245, '송파 파크하비오 워터킹덤', 'jinwoo0');
+insert into 놀이기구 values ('ASP_49', '카니발비치', '2023-05-16', '2023-05-17', 678, '송파 파크하비오 워터킹덤', 'hyuno0o');
+insert into 놀이기구 values ('ASP_50', '키즈 슬라이드', '2023-05-25', '2023-05-27', 468, '송파 파크하비오 워터킹덤', 'hyuno0o');
+
+insert into 놀이기구 values ('ADJ_51', '바디 슬라이드', '2023-05-20', '2023-05-25', 465, '대전 원마운트 워터파크', 'minjulee');
+insert into 놀이기구 values ('ADJ_52', '레인보우 루비 슬라이드', '2023-05-18', '2023-05-20', 879, '대전 원마운트 워터파크', 'minjulee');
+insert into 놀이기구 values ('ADJ_53', '스페이스볼', '2023-05-22', '2023-05-23', 534, '대전 원마운트 워터파크', 'minjulee');
+insert into 놀이기구 values ('ADJ_54', '스플래시 키즈존', '2023-05-17', '2023-05-19', 672, '대전 원마운트 워터파크', 'minjijj');
+insert into 놀이기구 values ('ADJ_55', '파도풀', '2023-05-24', '2023-05-26', 949, '대전 원마운트 워터파크', 'minjijj');
+
+insert into 놀이기구 values ('AHC_56', '유수풀', '2023-05-21', '2023-05-22', 789, '홍천 비발디파크 오션월드', 'minaa1');
+insert into 놀이기구 values ('AHC_57', '돌핀 키즈존', '2023-05-19', '2023-05-21', 245, '홍천 비발디파크 오션월드', 'minaa1');
+insert into 놀이기구 values ('AHC_58', '유아풀', '2023-05-23', '2023-05-24', 378, '홍천 비발디파크 오션월드', 'minaa1');
+insert into 놀이기구 values ('AHC_59', '정규풀', '2023-05-18', '2023-05-19', 243, '홍천 비발디파크 오션월드', 'minaa1');
+insert into 놀이기구 values ('AHC_60', '웜 풀', '2023-05-03', '2023-05-04', 777, '홍천 비발디파크 오션월드', 'minaa1');
+
+
+insert into 놀이기구 values ('ANH_61', '와일드 웻 리버', '2023-05-20', '2023-05-25', 786, '남해 웅진 플레이도시 워터파크', 'hyeonj1');
+insert into 놀이기구 values ('ANH_62', '스플래쉬 다운', '2023-05-18', '2023-05-20', 543, '남해 웅진 플레이도시 워터파크', 'hyeonj1');
+insert into 놀이기구 values ('ANH_63', '스위프트 블라스트', '2023-05-22', '2023-05-23', 464, '남해 웅진 플레이도시 워터파크', 'hyeonj1');
+insert into 놀이기구 values ('ANH_64', '덕 클락', '2023-05-17', '2023-05-19', 1025, '남해 웅진 플레이도시 워터파크', 'hyeonj1');
+insert into 놀이기구 values ('ANH_65', '스파이더 윙', '2023-05-24', '2023-05-26', 786, '남해 웅진 플레이도시 워터파크', 'hyeonj1');
+
+insert into 놀이기구 values ('AGJ_66', '플라넷 엑스', '2023-05-21', '2023-05-22', 132, '경주월드 캘리포니아 비치', 'haaaaa0');
+insert into 놀이기구 values ('AGJ_67', '서바이벌 웨이브', '2023-05-19', '2023-05-21', 247, '경주월드 캘리포니아 비치', 'haaaaa0');
+insert into 놀이기구 values ('AGJ_68', '스파존', '2023-05-23', '2023-05-24', 728, '경주월드 캘리포니아 비치', 'haaaaa0');
+insert into 놀이기구 values ('AGJ_69', '스피니스피니', '2023-05-18', '2023-05-19', 453, '경주월드 캘리포니아 비치', 'minjikim');
+insert into 놀이기구 values ('AGJ_70', '해머 해드', '2023-05-25', '2023-05-27', 698, '경주월드 캘리포니아 비치', 'minjikim');
+
+insert into 놀이기구 values ('AGWJ_71', '케이브 브레이크', '2023-05-20', '2023-05-25', 453, '광주 파크하비오 워터킹덤', 'hyeon000');
+insert into 놀이기구 values ('AGWJ_72', '고스트 슬라이드', '2023-05-18', '2023-05-20', 986, '광주 파크하비오 워터킹덤', 'hyeon000');
+insert into 놀이기구 values ('AGWJ_73', '카이로레이싱', '2023-05-22', '2023-05-23', 1785, '광주 파크하비오 워터킹덤', 'hyeon000');
+insert into 놀이기구 values ('AGWJ_74', '슈퍼S라이드', '2023-05-17', '2023-05-19', 534, '광주 파크하비오 워터킹덤', 'hyeon000');
+insert into 놀이기구 values ('AGWJ_75', '더블토네이도', '2023-05-24', '2023-05-26', 653, '광주 파크하비오 워터킹덤', 'hyeon000');
+
+insert into 놀이기구 values ('AJEJ_76', '더블스핀', '2023-05-21', '2023-05-22', 788, '전주 비발디파크 오션월드', 'westjun33');
+insert into 놀이기구 values ('AJEJ_77', '몬스터 블라스터', '2023-05-19', '2023-05-21', 965, '전주 비발디파크 오션월드', 'westjun33');
+insert into 놀이기구 values ('AJEJ_78', '슈퍼 부메랑고', '2023-05-23', '2023-05-24', 453, '전주 비발디파크 오션월드', 'westjun33');
+insert into 놀이기구 values ('AJEJ_79', '자이언트 워터플렉스', '2023-05-18', '2023-05-19', 132, '전주 비발디파크 오션월드', 'westjun33');
+insert into 놀이기구 values ('AJEJ_80', '서핑마운트', '2023-05-25', '2023-05-27', 786, '전주 비발디파크 오션월드', 'westjun33');
+
+insert into 놀이기구 values ('AGW_81', '익스트림 리버', '2023-05-20', '2023-05-25', 136, '강원 캘리포니아 비치', 'ir0nsu');
+insert into 놀이기구 values ('AGW_82', '슈퍼 익스트림 리버', '2023-05-18', '2023-05-20', 427, '강원 캘리포니아 비치', 'ir0nsu');
+insert into 놀이기구 values ('AGW_83', '키즈 풀', '2023-05-22', '2023-05-23', 786, '강원 캘리포니아 비치', 'ir0nsu');
+insert into 놀이기구 values ('AGW_84', '패밀리풀', '2023-05-17', '2023-05-19', 1435, '강원 캘리포니아 비치', 'ir0nsu');
+insert into 놀이기구 values ('AGW_85', '파도풀', '2023-05-24', '2023-05-26', 132, '강원 캘리포니아 비치', 'ir0nsu');
+
+insert into 놀이기구 values ('ADG_86', '워터플렉스', '2023-05-21', '2023-05-22', 578, '대구 파크하비오 워터킹덤', 'westkim79');
+insert into 놀이기구 values ('ADG_87', '타워풀', '2023-05-19', '2023-05-21', 365, '대구 파크하비오 워터킹덤', 'westkim79');
+insert into 놀이기구 values ('ADG_88', '산타모니카비치', '2023-05-23', '2023-05-24', 786, '대구 파크하비오 워터킹덤', 'westkim79');
+insert into 놀이기구 values ('ADG_89', '웨이브캐년', '2023-05-18', '2023-05-19', 456, '대구 파크하비오 워터킹덤', 'westkim79');
+insert into 놀이기구 values ('ADG_90', '페블비치', '2023-06-01', '2023-06-02', 867, '대구 파크하비오 워터킹덤', 'westkim79');
+
+insert into 놀이기구 values ('AJJU_91', '스플래쉬 어드벤쳐', '2023-05-20', '2023-05-25', 435, '제주도 비발디파크 오션월드', 'catslemin66');
+insert into 놀이기구 values ('AJJU_92', '레저풀', '2023-05-18', '2023-05-20', 153, '제주도 비발디파크 오션월드', 'catslemin66');
+insert into 놀이기구 values ('AJJU_93', '엑스', '2023-05-22', '2023-05-23', 876, '제주도 비발디파크 오션월드', 'catslemin66');
+insert into 놀이기구 values ('AJJU_94', '와이프아웃', '2023-05-17', '2023-05-19', 645, '제주도 비발디파크 오션월드', 'catslemin66');
+insert into 놀이기구 values ('AJJU_95', '터보트위스트', '2023-05-24', '2023-05-26', 978, '제주도 비발디파크 오션월드', 'catslemin66');
+
+insert into 놀이기구 values ('AUJ_96', '트리플다운1', '2023-05-21', '2023-05-22', 864, '울진 캘리포니아 비치', 'jiji989');
+insert into 놀이기구 values ('AUJ_97', '트리플다운2', '2023-05-19', '2023-05-21', 853, '울진 캘리포니아 비치', 'jiji989');
+insert into 놀이기구 values ('AUJ_98', '트리플다운3', '2023-05-23', '2023-05-24', 734, '울진 캘리포니아 비치', 'jiji989');
+insert into 놀이기구 values ('AUJ_99', '더블익스트림', '2023-05-18', '2023-05-19', 567, '울진 캘리포니아 비치', 'jiji989');
+insert into 놀이기구 values ('AUJ_100', '팜스프링', '2023-05-10', '2023-05-11', 645, '울진 캘리포니아 비치', 'jiji989');
+insert into 놀이기구 values ('AUJ_101', '노천스파', '2023-05-13', '2023-05-14', 440, '울진 캘리포니아 비치', 'jiji989');
